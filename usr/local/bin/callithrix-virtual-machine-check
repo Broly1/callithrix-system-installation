@@ -175,8 +175,8 @@ if [ $result = "none" ];
 			echo "Removed qemu-guest-agent"
 		fi
 
-		if [ -f /usr/local/bin/arcolinux-virtual-machine-check ]; then
-	   		rm /usr/local/bin/arcolinux-virtual-machine-check
+		if [ -f /usr/local/bin/callithrix-virtual-machine-check ]; then
+	   		rm /usr/local/bin/callithrix-virtual-machine-check
 			echo "Removed avm-check script"
 		fi
 

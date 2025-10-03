@@ -24,7 +24,7 @@
 
 echo
 echo "#############################################################"
-echo "Start arcolinux-nvidia-settings only for wayland desktops"
+echo "Start callithrix-nvidia-settings only for wayland desktops"
 echo "#############################################################"
 echo
 
@@ -105,7 +105,7 @@ if 	[ -f /usr/share/wayland-sessions/hyprland.desktop ] || \
 
 
 		# SYSTEMD-BOOT
-		if pacman -Qi arcolinux-bootloader-systemd-boot-git &> /dev/null; then
+		if pacman -Qi callithrix-bootloader-systemd-boot-git &> /dev/null; then
 
 			echo
 			echo "################################################################"
@@ -299,6 +299,6 @@ fi
 
 echo
 echo "#################################"
-echo "End arcolinux-nvidia-settings"
+echo "End callithrix-nvidia-settings"
 echo "#################################"
 echo

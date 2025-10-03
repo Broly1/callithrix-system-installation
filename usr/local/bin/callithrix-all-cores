@@ -14,7 +14,7 @@
 ##################################################################################################################
 echo
 echo "#################################"
-echo "Start arcolinux-all-cores"
+echo "Start callithrix-all-cores"
 echo "#################################"
 echo
 
@@ -31,6 +31,6 @@ fi
 
 echo
 echo "#################################"
-echo "End arcolinux-all-cores"
+echo "End callithrix-all-cores"
 echo "#################################"
 echo
